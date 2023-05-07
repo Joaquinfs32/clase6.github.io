@@ -1,0 +1,105 @@
+body {
+background: url(../clase\ 6/fondo.jpg);
+}
+.item-menu {
+    width: 25%;
+    padding: 2px;
+    margin: auto;
+    background-color: rgb(121, 137, 165);
+    font-size: 20px;
+    color: rgb(135, 135, 228);
+}
+.titulo-principal {
+    font-size: 35px;
+    color:rgb(28, 32, 32);
+    margin: auto;
+    text-align: center;
+}
+.dia {
+    font-weight: bold;
+    color: blue;
+    font-size: 25px;
+}
+.horarios {
+    font-style: italic;
+    font-size: 15px;
+    color: blue;
+}
+.medio-dia {
+    font-weight: bold;
+    color: darkviolet;
+    font-size: 25px;
+}
+.horario {
+    font-style: italic;
+    font-size: 15px;
+    color: blueviolet;
+}
+.dias-horarios {
+    background-color: blue;
+    font-weight: bold;
+    font-size: 25px;
+}
+.cabecera {
+    background: url(../clase\ 6/banner-image.jpg);
+    text-align: center;
+}
+.pie {
+    width: 200px;
+    margin: auto;
+    font-size: 20px;
+    color: blue;
+    background-color:dodgerblue ;
+}
+.formulario {
+    width: 300px;
+    background: rgb(65, 35, 35);
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    box-shadow: 5px 15px 40px rgb(5, 5, 5);
+}
+.formulario h2 {
+    font-size: 23px;
+    border-bottom: 20px;
+}
+.datos {
+    width: 95%;
+    background: rgb(82, 36, 36);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: white;
+}
+.formulario textarea {
+    width: 250px;
+    background-color: rgb(82, 36, 36);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    color: white;
+}
+.formulario .boton {
+    width: 100%;
+    background-color: rgb(184, 14, 14);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 15px;
+}
+ul {
+    height: 10vh;
+    margin: 50px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
